@@ -20,8 +20,8 @@ C:\>debug
 1165:0102 MOV DX, 108
 1165:0105 INT 21
 1165:0107 RET
-1165:0108 DB 'hello, world', D, A, '$'
-1165:0117
+1165:0108
+-E 108 'hello, world', D, A, '$'
 -G
 hello, world
 
