@@ -3,8 +3,8 @@ MOV AH, 9
 MOV DX, 108
 INT 21
 RET
-DB 'hello, world', D, A, '$'
 
+E 108 'hello, world', D, A, '$'
 N HELLO.COM
 R CX
 17
